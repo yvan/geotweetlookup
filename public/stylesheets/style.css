@@ -1,0 +1,84 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: #a81d00;
+}
+
+a {
+  color: #00B7FF;
+}
+
+h1 {
+
+	position: absolute;
+	max-width: 600px;
+	max-height: 25px;
+	margin: 25px auto 25px auto;
+	color: #FFFFFF;
+	font-size: 25px;
+}
+
+form#formGetGeocode {
+
+	position: absolute;
+	margin: 135px auto 25px auto;
+}
+
+input#inputPlaceName {
+
+	border: 0px;
+	padding: 10px;
+	border-radius: 3px;
+	max-width: 600px;
+	background: #4099FF;
+	color: #FFFFFF;
+}
+
+button#btnSubmit{
+
+	position: fixed;
+	border: 0px;
+	border-radius: 3px;
+	padding: 10px;
+	margin-left: 25px;
+	color: #FFFFFF;
+	background: #E1D4C0;
+	outline: none;
+}
+
+form#formGetGeocode button#btnSubmit :hover{
+
+	opacity: 0.75;
+	filter:alpha(opacity=75);
+}
+
+form#formGetGeocode button#btnSubmit :active{
+
+	opacity: 0.50;
+	filter:alpha(opacity=50);
+}
+
+div#geoCodeDiv{
+
+	position: absolute;
+	max-width: 600px;
+	max-height: 25px;
+	margin: 75px auto 25px auto;
+	color: #FFFFFF;
+	font-size: 25px;
+}
+
+::-webkit-input-placeholder { /* WebKit browsers */
+    color:    #FFFFFF;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #FFFFFF;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #FFFFFF;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+   color:    #FFFFFF;
+}

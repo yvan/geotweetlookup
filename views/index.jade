@@ -1,0 +1,8 @@
+extends layout
+
+block content
+	h1= title
+	form#formGetGeocode(name="getgeocode", method="post", action="/geocode")
+		input#inputPlaceName(type="text", placeholder="Enter placename here.", name="placename")
+		button#btnSubmit(type="submit") Get-yo-Geocode
+
